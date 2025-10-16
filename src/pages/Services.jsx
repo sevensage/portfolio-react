@@ -18,7 +18,7 @@ export default function Services() {
 
       {/* Titres */}
       <section className="text-center my-5 container">
-        <h1 className="fw-semibold title">Mon offre de services</h1>
+        <h1 className="fw-bold title">Mon offre de services</h1>
         <h2 className="fw-normal subtitle">
           Voici les prestations sur lesquelles je peux intervenir
         </h2>

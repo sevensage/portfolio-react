@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap');
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #000;
+}
+
+
+.navbar .nav-link.active {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/* Soulignement au survol */
+.navbar .nav-link:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3, strong {
+  font-weight: 600;
+}
+
+.line-bleu {
+  width: 400px;
+  height: 4px;
+  background-color: #007bff;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  border-radius: 2px;
+}
+
+
+.btn-primary {
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+
+.footer {
+  background-color: #222;
+  color: white;
+  padding: 40px 0;
+}
+
+.footer a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s, font-weight 0.3s;
+}
+
+.footer a:hover {
+  font-weight: 600;
+  color: white;
+}
+
+/* Icônes réseaux sociaux */
+.footer .social-link {
+  filter: brightness(0.7);
+  transition: filter 0.3s;
+}
+
+.footer .social-link:hover {
+  filter: brightness(1) invert(1);
+}
+
+
+form input,
+form textarea {
+  font-family: 'Nunito Sans', sans-serif;
+}
+

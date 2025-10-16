@@ -75,7 +75,7 @@ export default function Portfolio() {
         <h2 className="fw-light mb-4 subtitle">
           Voici quelques-unes de mes réalisations
         </h2>
-        <div className="blue-line mx-auto"></div>
+        <div className="line-blue mx-auto"></div>
       </section>
 
       {/* Cartes Portfolio */}
