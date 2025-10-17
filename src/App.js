@@ -7,6 +7,7 @@ import Services from "./pages/Services";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import MentionsLegales from "./pages/MentionsLegales";
+
 import './styles/Global.css';
 import './styles/Portfolio.css';
 import './styles/Services.css';
