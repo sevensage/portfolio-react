@@ -20,6 +20,53 @@ body {
   text-decoration: underline;
 }
 
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background: url('../assets/images/hero-bg.jpg') center/cover no-repeat;
+  text-align: center;
+  color: white;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.github-profile-modal {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.github-avatar {
+  width: 180px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal-right p {
+  margin: 0.3rem 0;
+}
+
+.modal-right a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.modal-right a:hover {
+  text-decoration: underline;
+}
+
+
 h1, h2, h3, strong {
   font-weight: 600;
 }
